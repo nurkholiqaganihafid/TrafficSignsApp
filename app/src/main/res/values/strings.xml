@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TrafficSignsApp</string>
+    <string name="app_name">Ramli - Rambu Lalu Lintas</string>
+    <string name="aturan_lalu_lintas">Aturan\nLalu Lintas</string>
 </resources>

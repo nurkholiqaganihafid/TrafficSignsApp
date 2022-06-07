@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_primary"
+    tools:context=".SignTypeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bar_layout_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Jenis Rambu"
+        app:titleMarginBottom="17dp"
+        app:titleMarginStart="85dp"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:titleTextColor="@color/white" />
+
+    <View
+        android:id="@+id/border_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_border_line"
+        app:layout_constraintTop_toBottomOf="@+id/bar_layout_type" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/border_line">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_warning_sign"
+            style="@style/btnFontStyle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_bg"
+            android:text="Rambu Peringatan"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_prohibition_sign"
+            style="@style/btnFontStyle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_bg"
+            android:text="Rambu Larangan"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_command_sign"
+            style="@style/btnFontStyle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_bg"
+            android:text="Rambu Perintah"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_hint_sign"
+            style="@style/btnFontStyle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_bg"
+            android:text="Rambu Petunjuk"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_additional_board"
+            style="@style/btnFontStyle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_bg"
+            android:text="Papan Tambahan"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_route_sign"
+            style="@style/btnFontStyle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_bg"
+            android:text="Rambu Nomor Rute"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

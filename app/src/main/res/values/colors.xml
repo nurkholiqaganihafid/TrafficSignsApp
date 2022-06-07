@@ -10,4 +10,5 @@
     <color name="green_primary">#00826A</color>
     <color name="btn_yellow">#FFC700</color>
     <color name="red">#FF0000</color>
+    <color name="gray_border_line">#858E8E</color>
 </resources>

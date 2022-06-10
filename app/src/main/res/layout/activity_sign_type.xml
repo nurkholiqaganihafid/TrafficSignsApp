@@ -15,12 +15,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
-        app:title="Jenis Rambu"
-        app:titleMarginBottom="17dp"
-        app:titleMarginStart="85dp"
-        app:titleTextAppearance="@style/Toolbar.TitleText"
-        app:titleTextColor="@color/white" />
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24">
+
+        <TextView
+            style="@style/Toolbar.TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Rambu" />
+    </androidx.appcompat.widget.Toolbar>
 
     <View
         android:id="@+id/border_line"

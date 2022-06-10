@@ -3,6 +3,7 @@ package com.nurkholiq.trafficsignsapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding;
@@ -19,10 +20,12 @@ public class SignTypeActivity extends AppCompatActivity {
 
         Toolbar toolbar = binding.barLayoutType;
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setNavigationOnClickListener(view -> finish());
 
         binding.btnWarningSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), WarningSignActivity.class);
+            startActivity(moveIntent);
         });
 
         binding.btnProhibitionSign.setOnClickListener(view -> {

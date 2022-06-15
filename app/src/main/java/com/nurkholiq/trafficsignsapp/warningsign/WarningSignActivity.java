@@ -15,7 +15,7 @@ public class WarningSignActivity extends AppCompatActivity {
 
     private ActivityWarningSignBinding binding;
 
-    String title[];
+    String title[], desription[];
     int images[] = {R.drawable.rp_1_left, R.drawable.rp_2_right, R.drawable.rp_3_sharp_left, R.drawable.rp_4_sharp_right, R.drawable.rp_5_left_bend, R.drawable.rp_6_right_bend, R.drawable.rp_7_climb, R.drawable.rp_8_traffic_lights};
     RecyclerView.LayoutManager layoutManager;
 
@@ -31,8 +31,9 @@ public class WarningSignActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(view -> finish());
 
         title = getResources().getStringArray(R.array.warning_sign_title);
+        desription = getResources().getStringArray(R.array.warning_sign_description);
 
-        WarningSignAdapter warningSignAdapter = new WarningSignAdapter(this, title, images);
+        WarningSignAdapter warningSignAdapter = new WarningSignAdapter(this, title, desription, images);
         binding.recyclerviewWarningSign.setAdapter(warningSignAdapter);
         layoutManager = new GridLayoutManager(this, 2);
         binding.recyclerviewWarningSign.setLayoutManager(layoutManager);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_warning_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
@@ -25,6 +26,19 @@
         android:layout_below="@id/image1"
         android:gravity="center"
         android:text="Tikungan Ke Kiri"
+        app:layout_constraintEnd_toEndOf="@+id/image1"
+        app:layout_constraintStart_toStartOf="@+id/image1"
+        app:layout_constraintTop_toBottomOf="@id/image1" />
+
+    <TextView
+        android:id="@+id/tv_description1"
+        style="@style/textFontStyle"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:gravity="center"
+        android:text="Tikungan Ke Kiri"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="@+id/image1"
         app:layout_constraintStart_toStartOf="@+id/image1"
         app:layout_constraintTop_toBottomOf="@id/image1" />

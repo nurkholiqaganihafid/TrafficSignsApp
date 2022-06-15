@@ -17,11 +17,11 @@
     <string-array name="warning_sign_description">
         <item>Menandakan di depan akan ada tikungan atau belokan ke kiri arah jarum jam 10.30.</item>
         <item>Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30.</item>
-        <item>Isi</item>
-        <item>Isi</item>
-        <item>Isi</item>
-        <item>Isi</item>
-        <item>Isi</item>
-        <item>Isi</item>
+        <item>Isi desription 3</item>
+        <item>Isi desription 4</item>
+        <item>Isi desription 5</item>
+        <item>Isi desription 6</item>
+        <item>Isi desription 7</item>
+        <item>Isi desription 8</item>
     </string-array>
 </resources>

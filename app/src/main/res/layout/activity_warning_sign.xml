@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green_primary"
-    tools:context=".WarningSignActivity">
+    tools:context=".warningsign.WarningSignActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/bar_layout_warning_sign"
@@ -30,5 +30,38 @@
         android:layout_height="1dp"
         android:background="@color/gray_border_line"
         app:layout_constraintTop_toBottomOf="@+id/bar_layout_warning_sign" />
+
+    <LinearLayout
+        android:id="@+id/lr_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/border_line">
+
+        <TextView
+            android:id="@+id/info_warning_sign"
+            style="@style/textFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/info_rambu_peringatan" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_warning_sign"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lr_warning" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

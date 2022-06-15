@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrafficSignsApp">
         <activity
-            android:name=".WarningSignActivity"
+            android:name=".warningsign.WarningSignActivity"
             android:exported="false" />
         <activity
             android:name=".SignTypeActivity"

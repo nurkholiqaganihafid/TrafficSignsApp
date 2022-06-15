@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">Ramli - Rambu Lalu Lintas</string>
     <string name="aturan_lalu_lintas">Aturan\nLalu Lintas</string>
+    <string name="info_rambu_peringatan">Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.</string>
+
+    <string-array name="warning_sign_title">
+        <item>Tikungan Ke Kiri</item>
+        <item>Tikungan Ke Kanan</item>
+        <item>Tikungan Tajam Ke Kiri</item>
+        <item>Tikungan Tajam Ke Kanan</item>
+        <item>Tikungan Pertama Ke Kiri</item>
+        <item>Tikungan Pertama Ke Kanan</item>
+        <item>Tanjakan\n</item>
+        <item>Lampu Pengatur Lalu Lintas</item>
+    </string-array>
+
+    <string-array name="warning_sign_description">
+        <item>Menandakan di depan akan ada tikungan atau belokan ke kiri arah jarum jam 10.30.</item>
+        <item>Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30.</item>
+        <item>Isi</item>
+        <item>Isi</item>
+        <item>Isi</item>
+        <item>Isi</item>
+        <item>Isi</item>
+        <item>Isi</item>
+    </string-array>
 </resources>

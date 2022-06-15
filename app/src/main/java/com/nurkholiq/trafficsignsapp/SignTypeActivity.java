@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding;
+import com.nurkholiq.trafficsignsapp.warningsign.WarningSignActivity;
 
 public class SignTypeActivity extends AppCompatActivity {
 

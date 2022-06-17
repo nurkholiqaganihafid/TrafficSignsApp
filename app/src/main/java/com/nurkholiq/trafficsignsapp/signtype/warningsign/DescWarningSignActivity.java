@@ -1,6 +1,7 @@
-package com.nurkholiq.trafficsignsapp.warningsign;
+package com.nurkholiq.trafficsignsapp.signtype.warningsign;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,7 +9,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivityDescWarningSignBinding;
 
-public class DescWarningSignActivity extends AppCompatActivity {
+public class DescWarningSignActivity extends AppCompatActivity implements View.OnClickListener {
 
     String title, description;
     int myImage;
@@ -25,6 +26,9 @@ public class DescWarningSignActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setNavigationOnClickListener(view -> finish());
+
+        binding.next.setOnClickListener(this);
+        binding.previous.setOnClickListener(this);
 
         getData();
         setData();
@@ -44,5 +48,16 @@ public class DescWarningSignActivity extends AppCompatActivity {
         binding.tvItem1.setText(title);
         binding.descriptionTitle.setText(description);
         binding.image1.setImageResource(myImage);
+    }
+
+    @Override
+    public void onClick(View view) {
+        if (view == binding.next) {
+            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
+//            binding.vfDesc.showNext();
+        } else if (view == binding.previous) {
+            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
+//            binding.vfDesc.showPrevious();
+        }
     }
 }

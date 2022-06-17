@@ -1,4 +1,4 @@
-package com.nurkholiq.trafficsignsapp.warningsign;
+package com.nurkholiq.trafficsignsapp.signtype.warningsign;
 
 import android.os.Bundle;
 

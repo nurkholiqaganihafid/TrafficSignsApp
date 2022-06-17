@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green_primary"
-    tools:context=".warningsign.WarningSignActivity">
+    tools:context=".signtype.warningsign.WarningSignActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/bar_layout_warning_sign"

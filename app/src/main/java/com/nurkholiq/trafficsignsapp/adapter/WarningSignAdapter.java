@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.nurkholiq.trafficsignsapp.R;
-import com.nurkholiq.trafficsignsapp.warningsign.DescWarningSignActivity;
+import com.nurkholiq.trafficsignsapp.signtype.warningsign.DescWarningSignActivity;
 
 public class WarningSignAdapter extends RecyclerView.Adapter<WarningSignAdapter.WarningSignViewHolder> {
 

@@ -3,18 +3,19 @@ package com.nurkholiq.trafficsignsapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding;
 
 public class SignTypeActivity extends AppCompatActivity {
 
-    private ActivitySignTypeBinding binding;
+    static String TAG_TYPE_TRAFFIC = "TAG_TYPE_TRAFFIC";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySignTypeBinding.inflate(getLayoutInflater());
+        com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding binding = ActivitySignTypeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         Toolbar toolbar = binding.barLayoutType;
@@ -22,27 +23,39 @@ public class SignTypeActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(view -> finish());
 
         binding.btnWarningSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity2.class);
+            moveIntent.putExtra(TAG_TYPE_TRAFFIC, "peringatan");
+            startActivity(moveIntent);
         });
 
         binding.btnProhibitionSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity2.class);
+            moveIntent.putExtra(TAG_TYPE_TRAFFIC, "larangan");
+            startActivity(moveIntent);
         });
 
         binding.btnCommandSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity2.class);
+            moveIntent.putExtra(TAG_TYPE_TRAFFIC, "perintah");
+            startActivity(moveIntent);
         });
 
         binding.btnHintSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity2.class);
+            moveIntent.putExtra(TAG_TYPE_TRAFFIC, "petunjuk");
+            startActivity(moveIntent);
         });
 
         binding.btnAdditionalBoard.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity2.class);
+            moveIntent.putExtra(TAG_TYPE_TRAFFIC, "tambahan");
+            startActivity(moveIntent);
         });
 
         binding.btnRouteSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity2.class);
+            moveIntent.putExtra(TAG_TYPE_TRAFFIC, "nomor_rute");
+            startActivity(moveIntent);
         });
 
     }

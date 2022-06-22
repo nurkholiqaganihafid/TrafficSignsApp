@@ -3,8 +3,8 @@ package com.nurkholiq.trafficsignsapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
+import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivityMainBinding;
 

@@ -41,7 +41,12 @@ public class MainActivity2 extends AppCompatActivity {
         } else if (type.equalsIgnoreCase("larangan")){
             listTraffic.addAll(DataSource.redListTraffic());
             binding.barLayoutType2.setTitle("Rambu Larangan");
+            binding.textView.setText("Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.");
+
         } else if (type.equalsIgnoreCase("perintah")){
+            listTraffic.addAll(DataSource.blueListTraffic());
+            binding.barLayoutType2.setTitle("Rambu Peringatan");
+            binding.textView.setText("Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.");
 
         } else if (type.equalsIgnoreCase("petunjuk")){
 

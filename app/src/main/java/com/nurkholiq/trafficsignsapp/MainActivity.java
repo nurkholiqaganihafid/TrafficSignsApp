@@ -24,9 +24,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnRule.setOnClickListener(view -> {
-            binding.btnSignType.setOnClickListener(view -> {
-                Intent moveIntent = new Intent(getApplicationContext(), MainActivity_Peraturan.class);
-                startActivity(moveIntent);
+            Intent moveIntent = new Intent(getApplicationContext(), MainActivity_Peraturan.class);
+            startActivity(moveIntent);
         });
 
         binding.btnGames.setOnClickListener(view -> {

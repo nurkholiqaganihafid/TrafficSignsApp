@@ -49,6 +49,10 @@ public class MainActivity2 extends AppCompatActivity {
             binding.textView.setText("Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.");
 
         } else if (type.equalsIgnoreCase("petunjuk")){
+            listTraffic.addAll(DataSource.greenListTraffic());
+            binding.barLayoutType2.setTitle("Rambu Peringatan");
+            binding.textView.setText("Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.");
+
 
         } else if (type.equalsIgnoreCase("tambahan")){
 

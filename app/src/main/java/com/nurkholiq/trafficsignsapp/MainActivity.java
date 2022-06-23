@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnGames.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            // TODO : moveIntent Activity or Fragmentw
         });
 
         binding.btnScan.setOnClickListener(view -> {

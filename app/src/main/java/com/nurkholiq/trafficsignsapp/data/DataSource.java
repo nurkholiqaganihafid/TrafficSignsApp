@@ -45,4 +45,17 @@ public class DataSource {
         arr.add(new Traffic(R.drawable.group_1, "Wajib Mengikuti Bundaran", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
         return arr;
     }
+
+    public static List<Traffic> greenListTraffic() {
+        ArrayList<Traffic> arr = new ArrayList<>();
+        arr.add(new Traffic(R.drawable.group_10, "Wajib Ke Kiri", "Menandakan di depan akan ada tikungan atau belokan ke kiri arah jarum jam 10.30"));
+        arr.add(new Traffic(R.drawable.group_22, "Wajib Ke Kanan", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
+        arr.add(new Traffic(R.drawable.group_21, "Tikungan tajam ke kiri", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.300."));
+        arr.add(new Traffic(R.drawable.group_23, "Tikungan tajam ke kanan", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
+        arr.add(new Traffic(R.drawable.group_26, "Wajib Mengikuti Arah Kiri", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
+        arr.add(new Traffic(R.drawable.group_24, "Wajib Mengikuti Arah Kanan", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
+        arr.add(new Traffic(R.drawable.group_25, "Wajib Mengikuti Laluintas", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
+        arr.add(new Traffic(R.drawable.group_1, "Wajib Mengikuti Bundaran", "Menandakan di depan akan ada tikungan atau belokan ke kanan arah jarum jam 13.30."));
+        return arr;
+    }
 }

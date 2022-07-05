@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding;
-import com.nurkholiq.trafficsignsapp.signtype.prohibitionsign.DescProhibitionSignActivity;
+import com.nurkholiq.trafficsignsapp.signtype.prohibitionsign.ProhibitionSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.warningsign.WarningSignActivity;
 
 public class SignTypeActivity extends AppCompatActivity {
@@ -31,7 +31,7 @@ public class SignTypeActivity extends AppCompatActivity {
         });
 
         binding.btnProhibitionSign.setOnClickListener(view -> {
-            Intent moveIntent = new Intent(getApplicationContext(), DescProhibitionSignActivity.class);
+            Intent moveIntent = new Intent(getApplicationContext(), ProhibitionSignActivity.class);
             startActivity(moveIntent);
         });
 

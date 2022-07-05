@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.nurkholiq.trafficsignsapp.R;
-import com.nurkholiq.trafficsignsapp.adapter.WarningSignAdapter;
+import com.nurkholiq.trafficsignsapp.adapter.SignTypeAdapter;
 import com.nurkholiq.trafficsignsapp.databinding.ActivityWarningSignBinding;
 
 public class WarningSignActivity extends AppCompatActivity {
@@ -33,7 +33,7 @@ public class WarningSignActivity extends AppCompatActivity {
         title = getResources().getStringArray(R.array.warning_sign_title);
         desription = getResources().getStringArray(R.array.warning_sign_description);
 
-        WarningSignAdapter warningSignAdapter = new WarningSignAdapter(this, title, desription, images);
+        SignTypeAdapter warningSignAdapter = new SignTypeAdapter(this, title, desription, images);
         binding.recyclerviewWarningSign.setAdapter(warningSignAdapter);
         layoutManager = new GridLayoutManager(this, 2);
         binding.recyclerviewWarningSign.setLayoutManager(layoutManager);

@@ -24,4 +24,26 @@
         <item>Isi desription 7</item>
         <item>Isi desription 8</item>
     </string-array>
+
+    <string-array name="prohibition_sign_title">
+        <item>Dilarang Jalan Terus</item>
+        <item>Dilarang Masuk\n</item>
+        <item>Dilarang Belok Ke Kiri</item>
+        <item>Dilarang Belok Ke Kanan</item>
+        <item>Dilarang Balik Arah</item>
+        <item>Dilarang Parkir</item>
+        <item>Dilarang Pejalan Kaki</item>
+        <item>Dilarang Masuk Motor Roda 4</item>
+    </string-array>
+
+    <string-array name="prohibition_sign_description">
+        <item>Melarang pengguna jalan bahwa di area tertentu mereka dilarang untuk berjalan terus karena wajib berhenti.</item>
+        <item>Melarang pengguna jalan untuk memasuki jalan atau area tertentu.</item>
+        <item>Melarang pengguna jalan untuk berberlok ke kiri di area atau jalan tertentu.</item>
+        <item>Melarang pengguna jalan untuk berberlok ke kanan di area atau jalan tertentu.</item>
+        <item>Melarang pengguna jalan untuk memutar balik dan membelokan kendaraannya ke sebelah kanan di area atau jalan tertentu.</item>
+        <item>Melarang pengguna jalan untuk memakirkan kendaraannya di area atau jalan tertentu</item>
+        <item>Melarang pejalan kaki untuk memasuki area atau jalan tertentu.</item>
+        <item>Melarang kendaraan bermotor roda empat untuk memasuki area atau jalan tertentu.</item>
+    </string-array>
 </resources>

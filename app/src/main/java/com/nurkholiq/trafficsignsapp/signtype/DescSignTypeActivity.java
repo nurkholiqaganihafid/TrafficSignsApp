@@ -1,4 +1,4 @@
-package com.nurkholiq.trafficsignsapp.signtype.warningsign;
+package com.nurkholiq.trafficsignsapp.signtype;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,19 +7,19 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.nurkholiq.trafficsignsapp.databinding.ActivityDescWarningSignBinding;
+import com.nurkholiq.trafficsignsapp.databinding.ActivityDescSignTypeBinding;
 
-public class DescWarningSignActivity extends AppCompatActivity implements View.OnClickListener {
+public class DescSignTypeActivity extends AppCompatActivity implements View.OnClickListener {
 
     String title, description;
     int myImage;
 
-    private ActivityDescWarningSignBinding binding;
+    private ActivityDescSignTypeBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityDescWarningSignBinding.inflate(getLayoutInflater());
+        binding = ActivityDescSignTypeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         Toolbar toolbar = binding.barLayoutDescription;

@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrafficSignsApp">
         <activity
-            android:name=".signtype.prohibitionsign.DescProhibitionSignActivity"
+            android:name=".signtype.prohibitionsign.ProhibitionSignActivity"
             android:exported="false" />
         <activity
-            android:name=".signtype.warningsign.DescWarningSignActivity"
+            android:name=".signtype.DescSignTypeActivity"
             android:exported="false"
             android:parentActivityName=".signtype.warningsign.WarningSignActivity" />
         <activity

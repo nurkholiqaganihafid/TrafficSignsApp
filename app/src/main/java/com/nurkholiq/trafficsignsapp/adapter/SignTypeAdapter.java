@@ -14,15 +14,15 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.nurkholiq.trafficsignsapp.R;
-import com.nurkholiq.trafficsignsapp.signtype.warningsign.DescWarningSignActivity;
+import com.nurkholiq.trafficsignsapp.signtype.DescSignTypeActivity;
 
-public class WarningSignAdapter extends RecyclerView.Adapter<WarningSignAdapter.WarningSignViewHolder> {
+public class SignTypeAdapter extends RecyclerView.Adapter<SignTypeAdapter.WarningSignViewHolder> {
 
     Context context;
     String tille[], description[];
     int images[];
 
-    public WarningSignAdapter(Context context, String title[], String description[], int images[]) {
+    public SignTypeAdapter(Context context, String title[], String description[], int images[]) {
         this.context = context;
         this.tille = title;
         this.description = description;
@@ -46,7 +46,7 @@ public class WarningSignAdapter extends RecyclerView.Adapter<WarningSignAdapter.
         holder.itemWarningLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent moveIntent = new Intent(context, DescWarningSignActivity.class);
+                Intent moveIntent = new Intent(context, DescSignTypeActivity.class);
                 moveIntent.putExtra("title", tille[position]);
                 moveIntent.putExtra("description", description[position]);
                 moveIntent.putExtra("myImage", images[position]);

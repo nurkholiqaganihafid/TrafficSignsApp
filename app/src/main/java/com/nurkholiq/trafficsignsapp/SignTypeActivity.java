@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding;
+import com.nurkholiq.trafficsignsapp.signtype.commandsign.CommandSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.prohibitionsign.ProhibitionSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.warningsign.WarningSignActivity;
 
@@ -36,7 +37,8 @@ public class SignTypeActivity extends AppCompatActivity {
         });
 
         binding.btnCommandSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), CommandSignActivity.class);
+            startActivity(moveIntent);
         });
 
         binding.btnHintSign.setOnClickListener(view -> {

@@ -2,6 +2,7 @@
     <string name="app_name">Ramli - Rambu Lalu Lintas</string>
     <string name="aturan_lalu_lintas">Aturan\nLalu Lintas</string>
     <string name="info_rambu_peringatan">Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.</string>
+    <string name="info_rambu_perintah">Menyatakan perintah yang wajib dilakukan oleh Pengguna Jalan. Ciri khas rambu ini adalah warna dasar biru, warna garis tepi putih, warna lambang putih, warna huruf dan/atau angka putih, dan warna kata-kata putih.</string>
 
     <string-array name="warning_sign_title">
         <item>Tikungan Ke Kiri</item>
@@ -45,5 +46,27 @@
         <item>Melarang pengguna jalan untuk memakirkan kendaraannya di area atau jalan tertentu</item>
         <item>Melarang pejalan kaki untuk memasuki area atau jalan tertentu.</item>
         <item>Melarang kendaraan bermotor roda empat untuk memasuki area atau jalan tertentu.</item>
+    </string-array>
+
+    <string-array name="command_sign_title">
+        <item>Wajib Ke Kiri</item>
+        <item>Wajib Ke Kanan</item>
+        <item>Wajib Mengikuti Arah</item>
+        <item>Wajib Mengikuti Arah</item>
+        <item>Wajib Dilewati</item>
+        <item>Wajib Dilewati</item>
+        <item>Wajib Lalu Lintas Bersepeda</item>
+        <item>Wajib Mengikuti Arah Bundaran</item>
+    </string-array>
+
+    <string-array name="command_sign_description">
+        <item>Menyatakan perintah kepada pengguna jalan untuk mengikuti jalan ke arah kiri.</item>
+        <item>Menyatakan perintah kepada pengguna jalan untuk mengikuti jalan ke arah kanan.</item>
+        <item>Menyatakan perintah kepada pengguna jalan untuk wajib belok kiri.</item>
+        <item>Menyatakan perintah kepada pengguna jalan untuk wajib belok kanan.</item>
+        <item>Menyatakan perintah kepada pengguna jalan untuk menggunakan jalur atau lajur jalan sebelah kiri.</item>
+        <item>Menyatakan perintah kepada pengguna jalan untuk menggunakan jalur atau lajur jalan sebelah kanan.</item>
+        <item>Menyatakan perintah kepada pengendara sepeda untuk menggunakan jalur atau lajur lalu lintas khusus pengendara sepeda.</item>
+        <item>Menyatakan perintah kepada pengguna jalan untuk mengikuti arah yang ditunjukkan saat memasuki bundaran.</item>
     </string-array>
 </resources>

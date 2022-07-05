@@ -11,6 +11,7 @@ import com.nurkholiq.trafficsignsapp.signtype.additionalboard.AdditionalBoardAct
 import com.nurkholiq.trafficsignsapp.signtype.commandsign.CommandSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.hintsign.HintSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.prohibitionsign.ProhibitionSignActivity;
+import com.nurkholiq.trafficsignsapp.signtype.routesign.RouteSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.warningsign.WarningSignActivity;
 
 public class SignTypeActivity extends AppCompatActivity {
@@ -54,7 +55,8 @@ public class SignTypeActivity extends AppCompatActivity {
         });
 
         binding.btnRouteSign.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), RouteSignActivity.class);
+            startActivity(moveIntent);
         });
 
     }

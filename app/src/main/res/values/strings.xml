@@ -91,4 +91,26 @@
         <item>Isi desription 7</item>
         <item>Isi desription 8</item>
     </string-array>
+
+    <string-array name="additional_board_title">
+        <item>Isi judul 1</item>
+        <item>Isi judul 2</item>
+        <item>Isi judul 3</item>
+        <item>Isi judul 4</item>
+        <item>Isi judul 5</item>
+        <item>Isi judul 6</item>
+        <item>Isi judul 7</item>
+        <item>Isi judul 8</item>
+    </string-array>
+
+    <string-array name="additional_board_description">
+        <item>Isi desription 1</item>
+        <item>Isi desription 2</item>
+        <item>Isi desription 3</item>
+        <item>Isi desription 4</item>
+        <item>Isi desription 5</item>
+        <item>Isi desription 6</item>
+        <item>Isi desription 7</item>
+        <item>Isi desription 8</item>
+    </string-array>
 </resources>

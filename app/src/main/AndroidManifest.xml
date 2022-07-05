@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrafficSignsApp">
         <activity
+            android:name=".signtype.additionalboard.AdditionalBoardActivity"
+            android:exported="false" />
+        <activity
             android:name=".signtype.hintsign.HintSignActivity"
             android:exported="false" />
         <activity

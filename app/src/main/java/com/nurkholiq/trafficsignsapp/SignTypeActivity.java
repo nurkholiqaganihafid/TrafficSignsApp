@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivitySignTypeBinding;
+import com.nurkholiq.trafficsignsapp.signtype.additionalboard.AdditionalBoardActivity;
 import com.nurkholiq.trafficsignsapp.signtype.commandsign.CommandSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.hintsign.HintSignActivity;
 import com.nurkholiq.trafficsignsapp.signtype.prohibitionsign.ProhibitionSignActivity;
@@ -48,7 +49,8 @@ public class SignTypeActivity extends AppCompatActivity {
         });
 
         binding.btnAdditionalBoard.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), AdditionalBoardActivity.class);
+            startActivity(moveIntent);
         });
 
         binding.btnRouteSign.setOnClickListener(view -> {

@@ -1,14 +1,14 @@
 package com.nurkholiq.trafficsignsapp.signtype.hintsign;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
-
 import com.nurkholiq.trafficsignsapp.R;
-import com.nurkholiq.trafficsignsapp.adapter.SignTypeAdapter;
+import com.nurkholiq.trafficsignsapp.adapter.SignHintAdapter;
 import com.nurkholiq.trafficsignsapp.databinding.ActivityHintSignBinding;
 
 public class HintSignActivity extends AppCompatActivity {
@@ -16,8 +16,7 @@ public class HintSignActivity extends AppCompatActivity {
     private ActivityHintSignBinding binding;
 
     String title[], desription[];
-    // TODO: image belum sesuai dengan rambu petunjuk
-    int images[] = {R.drawable.rl_1_stop, R.drawable.rl_2_entry, R.drawable.rl_3_left, R.drawable.rl_4_right, R.drawable.rl_5_u_turn, R.drawable.rl_6_parking, R.drawable.rl_7_pedestrian, R.drawable.rl_8_4wheels};
+    int images[] = {R.drawable.pet_1_intersection, R.drawable.pet_2_region, R.drawable.pet_3_exit, R.drawable.pet_4_left, R.drawable.pet_5_right, R.drawable.pet_6_purwakarta};
     RecyclerView.LayoutManager layoutManager;
 
     @Override
@@ -34,8 +33,8 @@ public class HintSignActivity extends AppCompatActivity {
         title = getResources().getStringArray(R.array.hint_sign_title);
         desription = getResources().getStringArray(R.array.hint_sign_description);
 
-        SignTypeAdapter warningSignAdapter = new SignTypeAdapter(this, title, desription, images);
-        binding.recyclerviewHintSign.setAdapter(warningSignAdapter);
+        SignHintAdapter hintSignAdapter = new SignHintAdapter(this, title, desription, images);
+        binding.recyclerviewHintSign.setAdapter(hintSignAdapter);
         layoutManager = new GridLayoutManager(this, 2);
         binding.recyclerviewHintSign.setLayoutManager(layoutManager);
 

@@ -29,6 +29,9 @@
             android:exported="false"
             android:parentActivityName=".signtype.warningsign.WarningSignActivity" />
         <activity
+            android:name=".signtype.DescSignHintActivity"
+            android:exported="false"/>
+        <activity
             android:name=".signtype.warningsign.WarningSignActivity"
             android:exported="false" />
         <activity

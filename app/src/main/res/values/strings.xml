@@ -3,6 +3,8 @@
     <string name="aturan_lalu_lintas">Aturan\nLalu Lintas</string>
     <string name="info_rambu_peringatan">Sebuah jenis tanda yang mengisyaratkan sebuah bahaya, rintangan atau kondisi potensial yang mengharuskan perhatian khusus.</string>
     <string name="info_rambu_perintah">Menyatakan perintah yang wajib dilakukan oleh Pengguna Jalan. Ciri khas rambu ini adalah warna dasar biru, warna garis tepi putih, warna lambang putih, warna huruf dan/atau angka putih, dan warna kata-kata putih.</string>
+    <string name="info_rambu_larangan">Rambu yang berisi larangan melakukan sesuatu, misalnya dilarang parkir, dilarang berhenti, dsb. Rambu larangan berupa tanda dengan latar belakang putih dan gambar atau tulisan yang berwarna merah dan hitam.</string>
+    <string name="info_rambu_petunjuk">Rambu petunjuk berfungsi menunjukkan arah atau tujuan. Biasanya berisi informasi jalan atau jurusan dengan tulisan nama tempat, daerah, atau info yang lain.</string>
 
     <string-array name="warning_sign_title">
         <item>Tikungan Ke Kiri</item>
@@ -71,25 +73,21 @@
     </string-array>
 
     <string-array name="hint_sign_title">
-        <item>Isi judul 1</item>
-        <item>Isi judul 2</item>
-        <item>Isi judul 3</item>
-        <item>Isi judul 4</item>
-        <item>Isi judul 5</item>
-        <item>Isi judul 6</item>
-        <item>Isi judul 7</item>
-        <item>Isi judul 8</item>
+        <item>Petunjuk Persimpangan</item>
+        <item>Petunjuk Arah Daerah</item>
+        <item>Petunjuk Tempat Keluar </item>
+        <item>Petunjuk Lajur \nKiri</item>
+        <item>Petunjuk Lajur Kanan</item>
+        <item>Petunjuk Jurusan Purwakarta</item>
     </string-array>
 
     <string-array name="hint_sign_description">
-        <item>Isi desription 1</item>
-        <item>Isi desription 2</item>
-        <item>Isi desription 3</item>
-        <item>Isi desription 4</item>
-        <item>Isi desription 5</item>
-        <item>Isi desription 6</item>
-        <item>Isi desription 7</item>
-        <item>Isi desription 8</item>
+        <item>Rambu pendahulu petunjuk jurusan pada persimpangan di depan</item>
+        <item>Rambu pendahulu petunjuk jurusan yang menunjukkan arah daerah</item>
+        <item>Rambu pendahulu petunjuk jurusan yang menyatakan arah untuk mencapai suatu tempat keluar dari jalan Tol</item>
+        <item>Rambu pendahulu petunjuk jurusan yang menyatakan lajur kiri yang harus dilewati untuk jurusan yang dituju</item>
+        <item>Rambu pendahulu petunjuk jurusan yang menyatakan lajur kanan yang harus dilewati untuk jurusan yang dituju</item>
+        <item>Rambu petunjuk jurusan Purwakarta dengan jarak 70 km</item>
     </string-array>
 
     <string-array name="additional_board_title">

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_primary"
+    tools:context=".signtype.DescSignTypeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bar_layout_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24">
+
+        <TextView
+            style="@style/Toolbar.TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/border_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_border_line"
+        app:layout_constraintTop_toBottomOf="@+id/bar_layout_description" />
+
+    <!--    <AdapterViewFlipper-->
+    <!--        android:id="@+id/vf_desc"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="57dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginEnd="57dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/border_line">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_desc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="57dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/border_line">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/pet_1_intersection"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_item1"
+            style="@style/titleDescriptionFontStyle"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image1"
+            android:gravity="center"
+            android:text="Petunjuk Persimpangan"
+            app:layout_constraintEnd_toEndOf="@+id/image1"
+            app:layout_constraintStart_toStartOf="@+id/image1"
+            app:layout_constraintTop_toBottomOf="@id/image1" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/textFontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:text="Deskripsi :"
+            app:layout_constraintEnd_toEndOf="@id/image1"
+            app:layout_constraintStart_toStartOf="@id/image1"
+            app:layout_constraintTop_toBottomOf="@id/tv_item1" />
+
+        <TextView
+            android:id="@+id/description_title"
+            style="@style/textFontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Deskripsi title"
+            app:layout_constraintEnd_toEndOf="@id/description"
+            app:layout_constraintStart_toStartOf="@id/description"
+            app:layout_constraintTop_toBottomOf="@id/description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--    </AdapterViewFlipper>-->
+
+    <ImageView
+        android:id="@+id/previous"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/cl_desc" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_baseline_arrow_forward_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cl_desc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

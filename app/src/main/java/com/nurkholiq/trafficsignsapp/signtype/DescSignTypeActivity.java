@@ -9,7 +9,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivityDescSignTypeBinding;
 
-public class DescSignTypeActivity extends AppCompatActivity implements View.OnClickListener {
+public class DescSignTypeActivity extends AppCompatActivity {
 
     String title, description;
     int myImage;
@@ -27,8 +27,8 @@ public class DescSignTypeActivity extends AppCompatActivity implements View.OnCl
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setNavigationOnClickListener(view -> finish());
 
-        binding.next.setOnClickListener(this);
-        binding.previous.setOnClickListener(this);
+//        binding.next.setOnClickListener(this);
+//        binding.previous.setOnClickListener(this);
 
         getData();
         setData();
@@ -50,14 +50,14 @@ public class DescSignTypeActivity extends AppCompatActivity implements View.OnCl
         binding.image1.setImageResource(myImage);
     }
 
-    @Override
-    public void onClick(View view) {
-        if (view == binding.next) {
-            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
-//            binding.vfDesc.showNext();
-        } else if (view == binding.previous) {
-            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
-//            binding.vfDesc.showPrevious();
-        }
-    }
+//    @Override
+//    public void onClick(View view) {
+//        if (view == binding.next) {
+//            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
+////            binding.vfDesc.showNext();
+//        } else if (view == binding.previous) {
+//            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
+////            binding.vfDesc.showPrevious();
+//        }
+//    }
 }

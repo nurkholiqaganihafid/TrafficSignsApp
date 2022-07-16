@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrafficSignsApp">
         <activity
+            android:name=".TrafficRulesActivity"
+            android:exported="false" />
+        <activity
             android:name=".signtype.routesign.RouteSignActivity"
             android:exported="false" />
         <activity
@@ -30,7 +33,7 @@
             android:parentActivityName=".signtype.warningsign.WarningSignActivity" />
         <activity
             android:name=".signtype.DescSignHintActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".signtype.warningsign.WarningSignActivity"
             android:exported="false" />

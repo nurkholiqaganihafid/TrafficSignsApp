@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnRule.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), TrafficRulesActivity.class);
+            startActivity(moveIntent);
         });
 
         binding.btnGames.setOnClickListener(view -> {

@@ -7,20 +7,27 @@
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/btn_background.xml" value="0.149" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/btn_bg.xml" value="0.2385" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/btn_exit_bg.xml" value="0.159" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1775" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_additional_board.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_command_sign.xml" value="0.2" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_prohibition_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_sign_hint.xml" value="0.21666666666666667" />
-        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_sign_type.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_sign_type.xml" value="0.2" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_warning_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_hint_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_main.xml" value="0.19895833333333332" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_prohibition_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_route_sign.xml" value="0.23229166666666667" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_sign_type.xml" value="0.19479166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_traffic_rules.xml" value="0.19479166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_warning_sign.xml" value="0.15364583333333334" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/five_expandable_desc.xml" value="0.16875" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/item_hint_sign.xml" value="0.21666666666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/item_warning_sign.xml" value="0.23229166666666667" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/one_expandable_desc.xml" value="0.1859375" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/one_expandable_parent.xml" value="0.176" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/seven_expandable_desc.xml" value="0.16875" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/TrafficSignsApp/app/src/main/res/layout/activity_listdata.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/TrafficSignsApp/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/TrafficSignsApp/app/src/main/res/layout/activity_main2.xml" value="0.25" />

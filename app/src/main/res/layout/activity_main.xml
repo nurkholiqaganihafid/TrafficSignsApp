@@ -53,17 +53,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_rule" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_scan"
-        style="@style/btnFontStyle"
-        android:layout_width="175dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/btn_bg"
-        android:text="Scan Image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_games" />
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/btn_scan"-->
+    <!--        style="@style/btnFontStyle"-->
+    <!--        android:layout_width="175dp"-->
+    <!--        android:layout_height="55dp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:background="@drawable/btn_bg"-->
+    <!--        android:text="Scan Image"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/btn_games" />-->
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_exit"
@@ -75,6 +75,6 @@
         android:text="Keluar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_scan" />
+        app:layout_constraintTop_toBottomOf="@id/btn_games" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

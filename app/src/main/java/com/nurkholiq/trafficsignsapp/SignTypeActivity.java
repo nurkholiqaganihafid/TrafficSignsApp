@@ -49,15 +49,15 @@ public class SignTypeActivity extends AppCompatActivity {
             startActivity(moveIntent);
         });
 
-        binding.btnAdditionalBoard.setOnClickListener(view -> {
-            Intent moveIntent = new Intent(getApplicationContext(), AdditionalBoardActivity.class);
-            startActivity(moveIntent);
-        });
+//        binding.btnAdditionalBoard.setOnClickListener(view -> {
+//            Intent moveIntent = new Intent(getApplicationContext(), AdditionalBoardActivity.class);
+//            startActivity(moveIntent);
+//        });
 
-        binding.btnRouteSign.setOnClickListener(view -> {
-            Intent moveIntent = new Intent(getApplicationContext(), RouteSignActivity.class);
-            startActivity(moveIntent);
-        });
+//        binding.btnRouteSign.setOnClickListener(view -> {
+//            Intent moveIntent = new Intent(getApplicationContext(), RouteSignActivity.class);
+//            startActivity(moveIntent);
+//        });
 
     }
 }

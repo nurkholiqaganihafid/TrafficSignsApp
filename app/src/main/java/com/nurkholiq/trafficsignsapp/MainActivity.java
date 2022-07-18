@@ -1,12 +1,12 @@
 package com.nurkholiq.trafficsignsapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.nurkholiq.trafficsignsapp.databinding.ActivityMainBinding;
+import com.nurkholiq.trafficsignsapp.games.GameActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnGames.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
+            Intent moveIntent = new Intent(getApplicationContext(), GameActivity.class);
+            startActivity(moveIntent);
         });
 
-        binding.btnScan.setOnClickListener(view -> {
-            // TODO : moveIntent Activity or Fragment
-        });
+//        binding.btnScan.setOnClickListener(view -> {
+//            // TODO : moveIntent Activity or Fragment
+//        });
 
         binding.btnExit.setOnClickListener(view -> {
             onBackPressed();

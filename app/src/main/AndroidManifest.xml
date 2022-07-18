@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrafficSignsApp">
         <activity
+            android:name=".games.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".games.GameActivity"
+            android:exported="false" />
+        <activity
             android:name=".TrafficRulesActivity"
             android:exported="false" />
         <activity

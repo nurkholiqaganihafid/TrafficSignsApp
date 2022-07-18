@@ -4,19 +4,27 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable-v24/btn_exit_bg.xml" value="0.159" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable-v24/radio_button_selector.xml" value="0.155" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/btn_background.xml" value="0.149" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/btn_bg.xml" value="0.2385" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/btn_exit_bg.xml" value="0.159" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/custome_radio_button.xml" value="0.155" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1775" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/ic_baseline_radio_button_checked_24.xml" value="0.155" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.155" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/ic_normal.xml" value="0.155" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/drawable/radio_button_selector.xml" value="0.154" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_additional_board.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_command_sign.xml" value="0.2" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_prohibition_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_sign_hint.xml" value="0.21666666666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_sign_type.xml" value="0.2" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_desc_warning_sign.xml" value="0.23229166666666667" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_game.xml" value="0.2" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_hint_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_main.xml" value="0.19895833333333332" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_prohibition_sign.xml" value="0.23229166666666667" />
+        <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_result.xml" value="0.13645833333333332" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_route_sign.xml" value="0.23229166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_sign_type.xml" value="0.19479166666666667" />
         <entry key="..\:/ProjectAndroidStudio/JAVA/TrafficSignsApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.23229166666666667" />

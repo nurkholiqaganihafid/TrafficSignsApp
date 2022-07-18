@@ -81,25 +81,25 @@
             android:text="Rambu Petunjuk"
             android:textAllCaps="false" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_additional_board"
-            style="@style/btnFontStyle"
-            android:layout_width="230dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="26dp"
-            android:background="@drawable/btn_bg"
-            android:text="Papan Tambahan"
-            android:textAllCaps="false" />
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/btn_additional_board"-->
+<!--            style="@style/btnFontStyle"-->
+<!--            android:layout_width="230dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="26dp"-->
+<!--            android:background="@drawable/btn_bg"-->
+<!--            android:text="Papan Tambahan"-->
+<!--            android:textAllCaps="false" />-->
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_route_sign"
-            style="@style/btnFontStyle"
-            android:layout_width="230dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="26dp"
-            android:background="@drawable/btn_bg"
-            android:text="Rambu Nomor Rute"
-            android:textAllCaps="false" />
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/btn_route_sign"-->
+<!--            style="@style/btnFontStyle"-->
+<!--            android:layout_width="230dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="26dp"-->
+<!--            android:background="@drawable/btn_bg"-->
+<!--            android:text="Rambu Nomor Rute"-->
+<!--            android:textAllCaps="false" />-->
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

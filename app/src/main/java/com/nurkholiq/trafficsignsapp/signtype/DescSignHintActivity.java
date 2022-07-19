@@ -28,8 +28,8 @@ public class DescSignHintActivity extends AppCompatActivity implements View.OnCl
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setNavigationOnClickListener(view -> finish());
 
-        binding.next.setOnClickListener(this);
-        binding.previous.setOnClickListener(this);
+//        binding.next.setOnClickListener(this);
+//        binding.previous.setOnClickListener(this);
 
         getData();
         setData();
@@ -53,12 +53,12 @@ public class DescSignHintActivity extends AppCompatActivity implements View.OnCl
 
     @Override
     public void onClick(View view) {
-        if (view == binding.next) {
-            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
-//            binding.vfDesc.showNext();
-        } else if (view == binding.previous) {
-            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
-//            binding.vfDesc.showPrevious();
-        }
+//        if (view == binding.next) {
+//            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
+////            binding.vfDesc.showNext();
+//        } else if (view == binding.previous) {
+//            Toast.makeText(this, "Belum ada aktifitas", Toast.LENGTH_SHORT).show();
+////            binding.vfDesc.showPrevious();
+//        }
     }
 }

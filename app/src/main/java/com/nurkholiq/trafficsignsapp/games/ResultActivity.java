@@ -10,6 +10,7 @@ import com.nurkholiq.trafficsignsapp.R;
 public class ResultActivity extends AppCompatActivity {
 
     public static String RESULT_TAG = "RESULT_TAG";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +18,7 @@ public class ResultActivity extends AppCompatActivity {
 
         String result = getIntent().getStringExtra(RESULT_TAG);
         TextView resultTv = findViewById(R.id.result);
-        resultTv.setText("Nilai: " + result);
-        findViewById(R.id.back).setOnClickListener(view ->  finish());
+        resultTv.setText(result);
+        findViewById(R.id.back).setOnClickListener(view -> finish());
     }
 }
